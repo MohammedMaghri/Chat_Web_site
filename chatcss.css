@@ -1,0 +1,231 @@
+body{
+    background-color: rgba(0, 3, 22, 0.973);
+}
+
+.header {
+    width: 50vw; /* 50% of the viewport width */
+    margin: 0 auto; /* Center horizontally */
+  }
+  .all{ 
+    box-shadow: 0 0 70px black;
+    position: fixed;
+    top : 10px;
+    left: 450px;
+    border-radius: 20px;
+    width: 900px;
+    border: solid 1px;
+    border-color: rgb(3, 45, 109);
+    height: 500px;
+  }
+.header{
+    padding-left: 40px;
+    font-family: 'Amatic SC', cursive;
+    outline: none;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border: solid 10px;
+    border-color: rgb(0, 52, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 20px ;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    height: 100px;
+    width: 700px;;
+    color: rgb(255, 248, 248);
+    background-color: rgb(9, 3, 88);
+}
+.bx{
+    margin-left: 10px;
+    color: rgb(231, 231, 231);
+}
+.mssg{
+    margin-left: 30px;
+    outline: none;
+    border: solid 1px ;
+    border-color: aliceblue;
+    margin-top: 280px;
+    border-radius: 20px;
+    width: auto;
+    height: 30px;
+    width: 800px;
+    cursor: pointer;
+    background-color: rgb(4, 16, 56);
+    transition: 0.1s border ;
+    transition: 0.4s box-shadow ;
+}
+
+.mssg:hover{
+    border:solid 2px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px white;
+}
+.mssg::placeholder{
+    ffont-family: 'Kenia', cursive;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+}
+.msg{
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.4s color;
+    transition: 0.4s  font-size;
+}
+.msg:hover{
+    font-size: 30px;
+    color: rgb(14, 61, 148);
+}
+input[type="text"] {
+    text-indent: 20px;
+    font-family: 'Changa One', cursive;
+  }
+
+.user{
+    display: flex;
+}
+.box{
+    color: rgb(9, 21, 128);
+    font-size: 60px;
+    position: fixed;
+    left: 30px;
+    top: 30px;
+}
+.text{
+    font-family: 'Geo', sans-serif;
+    font-size: 60px;
+    color: aliceblue;
+    position: fixed;
+    left: 130px;
+    top: 30px;
+}
+.pr{
+    position: relative;
+}
+.pr{
+    position: absolute;
+    border: solid 0px ;
+    border-color: aliceblue;
+    width: 430px;
+    top: 130px;
+    height: 510px;
+}
+.p img{
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(37, 168, 255);
+    border: solid 3px ;
+    border-color: rgb(3, 153, 253);
+    position: fixed;
+    bottom: 450px;
+    left: 20px;
+    border-radius: 40px;
+    width: 70px;
+    transition: 0.4s box-shadow ;
+}
+.p img:hover{
+   box-shadow: 0 0 20px rgb(104, 193, 252);
+}
+.Mp{
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Skranji', cursive;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: aliceblue;
+}
+.p1 img{
+    box-shadow: 0 0 8px rgb(37, 168, 255);
+    border: solid 3px ;
+    border-color: rgb(3, 153, 253);
+    position: fixed;
+    bottom: 350px;
+    left: 19px;
+    border-radius: 40px;
+    width: 70px;
+    transition: 0.4s box-shadow ;
+    cursor: pointer;
+}
+.p1 img:hover{
+    box-shadow: 0 0 20px rgb(104, 193, 252);
+ }
+.Mp1{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Skranji', cursive;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    color: aliceblue;
+}
+.p2 img{
+    box-shadow: 0 0 8px rgb(37, 168, 255);
+    border: solid 3px ;
+    border-color: rgb(3, 153, 253);
+    position: fixed;
+    bottom: 250px;
+    left: 19px;
+    border-radius: 40px;
+    width: 70px;
+    transition: 0.4s box-shadow ;
+
+}
+.p2 img:hover{
+    box-shadow: 0 0 20px rgb(104, 193, 252);
+ }
+.Mp2{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Skranji', cursive;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    color: aliceblue;
+}
+.p3 img{
+    box-shadow: 0 0 8px rgb(233, 35, 35);
+    border: solid 3px ;
+    border-color: rgb(180, 0, 0);
+    position: fixed;
+    bottom: 150px;
+    left: 19px;
+    border-radius: 40px;
+    width: 70px;
+    transition: 0.4s box-shadow ;
+    cursor: pointer;
+}
+.p3 img:hover{
+    box-shadow: 0 0 20px rgb(233, 35, 35);
+ }
+.Mp3{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Skranji', cursive;
+    position: absolute;
+    top: 310px;
+    left: 100px;
+    color: aliceblue;
+}
+.p4 img{
+    box-shadow: 0 0 8px rgb(233, 35, 35);
+    border: solid 3px ;
+    border-color: rgb(180, 0, 0);
+    position: fixed;
+    bottom: 50px;
+    left: 19px;
+    border-radius: 40px;
+    width: 70px;
+    transition: 0.4s box-shadow ;
+    cursor: pointer;
+}
+.p4 img:hover{
+    box-shadow: 0 0 20px rgb(233, 35, 35);
+ }
+.Mp4{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Skranji', cursive;
+    position: absolute;
+    top: 410px;
+    left: 100px;
+    color: aliceblue;
+}
+
